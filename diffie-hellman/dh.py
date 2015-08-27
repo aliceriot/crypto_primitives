@@ -1,7 +1,5 @@
 import random
 
-
-
 def diffie_hellman(mod, base, quiet=False):
     """
     Computes a diffie hellman shared secret
@@ -29,7 +27,6 @@ def diffie_hellman(mod, base, quiet=False):
         return alice_shared
     else:
         return None
-
 
 if __name__ == '__main__':
     diffie_hellman(53, 22)
