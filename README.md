@@ -11,3 +11,9 @@ establish a shared secret whilst communicating over insecure channels
 The other is another small program that uses the same Diffie-Hellman key
 exchange function to encrypt and then decrypt a message using the DH
 secret for repeating key XOR. Cool!
+
+##TODO
+
+- RSA
+- Diffie-Hellman messaging app!
+- AES
